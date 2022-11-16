@@ -5,51 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet" type="text/css">
+    <link rel= "stylesheet" type= "text/css" herf= "http.//fonts.googleapis.com/css" family="Abril Fatface">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Sobre mi</a></li>
-                        <li><a href="#">Contacto</a></li>
-                        <li><a href="#">Educacion</a></li>
-                        <li><a href="#">Aplitudes</a></li>
-                        <li><a href="#">Proyectos</a></li>
+            <!-- <div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <div class="container-fluid">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="#">Sobre mi</a></li>
+                        <li class="nav-item"><a href="#">Contacto</a></li>
+                        <li class="nav-item"><a href="#">Educacion</a></li>
+                        <li class="nav-item"><a href="#">Aplitudes</a></li>
+                        <li class="nav-item"><a href="#">Proyectos</a></li>
                     </ul>
-            </div>
-        </div>
+                    </div>
+                </nav>
+            </div> -->
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Sobre mi</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Educacion</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Aplitudes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Proyectos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
     </header>
     <section>
          <div class="noticia">
             <video src="./img/fondo.mp4" autoplay="true" muted="true" loop="true"></video>
             <div>
             <img class="izquierda" src="./img/yo.jpg" alt=" jeremias vallejos">
-            <aside class="parrafo">Lo que queremos hacer es colocar este texto al lado derecho de la imagen, algo así como se observa en periódicos o revistas.</aside>
-              <p class="parrafo">jeremias vallejos hhsjsxhzxhxjh hbcchsbshb hhhhh</p>
-               <p> 
+            <aside class="parrafo">Hola! Me llamo Jeremias Vallejos Gonzalez</aside>
+            <br/><br/><br/>
+               <p class="parrafo"> 
                 Me considero una persona entusiasta de la tecnología. Mi diferencial en la responsabilidad y las ganas de crecer y aportar esa energía, crecer y capacitarme en el desarrollo personal y profesional dentro de la organización que me lo permita hacerlo </p>
             </div>
-            <div class="reset"></div>
           </div>
-           
-        <!-- <div>
-            <aside class="aside-presentacion">
-                  <video src="./img/fondo.mp4" autoplay="true" muted="true" loop="true"></video> 
-                <div class="contenedor-img">
-                    <img class="img-portafolio-yo" src="./img/yo.jpg" alt=" jeremias vallejos" />
-                </div>
-                <div class="parrafo">
-                    <aside>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                        Corporis ea quis, deleniti distinctio ipsum obcaecati dicta vitae. Eum, quas impedit nostrum 
-                        repudiandae at illo soluta site
-                    </aside>
-                </div>
-            </aside>
-        </div> -->
         <div>
             <article>
                 <div>
@@ -59,7 +69,14 @@
         </div>
     </section>
     <footer>
-       <p>Echo por jeremias</p>
+       <h2 class="h2-contacto">Contacto</h2>
+       <div>
+        <ul>
+            <li>Linkedin</li>
+            <li>GitHub</li>
+            <li>Gmail</li>
+        </ul>
+       </div>
     </footer>
 </body>
 
