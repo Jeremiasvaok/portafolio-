@@ -7,9 +7,6 @@
     text-decoration: none;
 
 }
-body{
-    background-color: rgb(32, 32, 32);
-}
 
 .izquierda{
     height: 30%;
@@ -53,7 +50,8 @@ div.noticia img.izquierda {
   
 .h2-contacto{
     text-align: center;
-    margin-top: 30px;
+    justify-content: center;
+    /* margin-top: 30px; */
     color: white;
     font-size: 15px;
 }
