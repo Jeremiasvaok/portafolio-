@@ -61,11 +61,10 @@ div.noticia img.izquierda {
     margin-left: 12px;
 }
 
-
 .card{
     height: 150px;
     width: 150px;
      margin: 0px 0px 30px 30px;
-    
+    float: left;
    
 }
